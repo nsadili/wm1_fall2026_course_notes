@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #17213c; font-family: Arial, sans-serif; }
+header { padding: 1rem 2rem; color: white; background: #17213c; }
+main { display: grid; grid-template-columns: 1fr 16rem; gap: 2rem; min-height: 130vh; padding: 2rem; }
+.product { max-width: 30rem; }
+.image { position: relative; display: grid; place-items: center; min-height: 15rem; background: #dfe6ff; }
+.badge { position: absolute; top: .75rem; right: .75rem; padding: .35rem .65rem; color: white; background: #c13d5a; border-radius: 999px; }
+aside { position: sticky; top: 1rem; align-self: start; padding: 1rem; background: #fff3c7; }
+.long-copy { grid-column: 1 / -1; }
+.help { position: fixed; right: 1rem; bottom: 1rem; padding: .75rem 1rem; color: white; background: #3454d1; border: 0; border-radius: 999px; }

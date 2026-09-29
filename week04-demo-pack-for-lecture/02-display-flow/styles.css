@@ -1,0 +1,7 @@
+body { max-width: 800px; margin: auto; padding: 2rem; color: #17213c; font-family: Arial, sans-serif; }
+section { margin-block: 2rem; padding: 1rem; background: #f5f7fb; }
+.box, .link { margin: .35rem; padding: 1rem; background: #dfe6ff; border: 2px solid #3454d1; }
+.block { display: block; }
+.inline { display: inline; width: 14rem; }
+.inline-block { display: inline-block; width: 14rem; }
+.invisible { visibility: hidden; }

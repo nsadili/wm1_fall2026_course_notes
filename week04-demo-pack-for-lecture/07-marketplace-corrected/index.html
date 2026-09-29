@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive teaching example for CSS layout and responsive design.">
+  <title>Loop Market — Pre-loved technology</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Loop Market home">
+      <span class="brand-mark" aria-hidden="true">L</span>
+      <span>Loop Market</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a class="active" href="#listings">Browse</a>
+      <a href="#categories">Categories</a>
+      <a href="#selling">Sell</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <a class="profile-button" href="#profile">
+      <span class="avatar" aria-hidden="true">NS</span>
+      <span class="profile-label">My profile</span>
+    </a>
+
+    <details class="nav-menu">
+      <summary aria-label="Open primary navigation">
+        <span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="menu-label">Menu</span>
+      </summary>
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a class="active" href="#listings">Browse</a>
+        <a href="#categories">Categories</a>
+        <a href="#selling">Sell</a>
+        <a href="#about">About</a>
+      </nav>
+    </details>
+  </header>
+
+  <main>
+    <section class="intro" id="profile" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow">GOOD TECH. SECOND LOOP.</p>
+        <h1 id="intro-title">Find useful technology from people nearby.</h1>
+        <p class="intro-copy">Browse checked listings, compare prices, and give quality devices a longer life.</p>
+      </div>
+      <div class="intro-stat" aria-label="Marketplace activity">
+        <strong>1,284</strong>
+        <span>active local listings</span>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Listing controls">
+      <div>
+        <p class="eyebrow">BAKU · ALL CATEGORIES</p>
+        <h2 id="listings">Fresh listings</h2>
+      </div>
+      <label class="sort-control">
+        <span>Sort by</span>
+        <select>
+          <option>Newest first</option>
+          <option>Price: low to high</option>
+          <option>Price: high to low</option>
+        </select>
+      </label>
+    </section>
+
+    <div class="market-layout">
+      <section class="product-grid" aria-label="Product listings">
+        <article class="product-card">
+          <div class="product-image image-laptop" role="img" aria-label="Silver laptop on a blue background"><span>💻</span></div>
+          <div class="product-content">
+            <div class="product-meta"><span>Computers</span><span>2 hours ago</span></div>
+            <h3>13-inch ultrabook, 16 GB</h3>
+            <p class="condition">Excellent condition · Yasamal</p>
+            <div class="product-footer"><strong>1,180 ₼</strong><button type="button" aria-label="Save ultrabook listing">♡</button></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-headphones" role="img" aria-label="Black headphones on an orange background"><span>🎧</span></div>
+          <div class="product-content">
+            <div class="product-meta"><span>Audio</span><span>Today</span></div>
+            <h3>Noise-cancelling headphones</h3>
+            <p class="condition">Like new · Nizami</p>
+            <div class="product-footer"><strong>240 ₼</strong><button type="button" aria-label="Save headphones listing">♡</button></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-camera" role="img" aria-label="Camera on a purple background"><span>📷</span></div>
+          <div class="product-content">
+            <div class="product-meta"><span>Cameras</span><span>Yesterday</span></div>
+            <h3>Mirrorless camera with lens</h3>
+            <p class="condition">Good condition · Narimanov</p>
+            <div class="product-footer"><strong>890 ₼</strong><button type="button" aria-label="Save camera listing">♡</button></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-watch" role="img" aria-label="Smart watch on a green background"><span>⌚</span></div>
+          <div class="product-content">
+            <div class="product-meta"><span>Wearables</span><span>Yesterday</span></div>
+            <h3>GPS smart watch, 44 mm</h3>
+            <p class="condition">Very good · Sabail</p>
+            <div class="product-footer"><strong>310 ₼</strong><button type="button" aria-label="Save smart watch listing">♡</button></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-console" role="img" aria-label="Game controller on a pink background"><span>🎮</span></div>
+          <div class="product-content">
+            <div class="product-meta"><span>Gaming</span><span>2 days ago</span></div>
+            <h3>Compact game console bundle</h3>
+            <p class="condition">Excellent condition · Khatai</p>
+            <div class="product-footer"><strong>760 ₼</strong><button type="button" aria-label="Save console listing">♡</button></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-speaker" role="img" aria-label="Portable speaker on a teal background"><span>🔊</span></div>
+          <div class="product-content">
+            <div class="product-meta"><span>Audio</span><span>3 days ago</span></div>
+            <h3>Water-resistant mini speaker</h3>
+            <p class="condition">Good condition · Binagadi</p>
+            <div class="product-footer"><strong>95 ₼</strong><button type="button" aria-label="Save speaker listing">♡</button></div>
+          </div>
+        </article>
+      </section>
+
+      <aside class="ad-sidebar" aria-label="Sponsored content">
+        <div class="ad-banner">
+          <p class="ad-label">ADVERTISEMENT</p>
+          <span class="ad-icon" aria-hidden="true">♻</span>
+          <h2>Trade in your old device</h2>
+          <p>Get a repair estimate and keep working technology in circulation.</p>
+          <span class="fake-link">Learn more <span aria-hidden="true">→</span></span>
+        </div>
+        <div class="safety-note">
+          <h2>Meet safely</h2>
+          <p>Use a public location, inspect the item, and never share verification codes.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <div><strong>Loop Market</strong><p>A fictional marketplace created for a responsive-layout lesson.</p></div>
+    <nav aria-label="Footer navigation"><a href="#">Help</a><a href="#">Safety</a><a href="#">Terms</a></nav>
+    <p>© 2026 Loop Market</p>
+  </footer>
+</body>
+</html>

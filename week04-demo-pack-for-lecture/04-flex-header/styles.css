@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #17213c; font-family: Arial, sans-serif; }
+.page-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding: 1rem 2rem; background: #17213c; }
+.page-header a { color: white; text-decoration: none; }
+.logo { font-size: 1.4rem; font-weight: 800; }
+nav { display: flex; gap: 1.25rem; }
+button { padding: .65rem 1rem; border: 0; border-radius: .5rem; }
+main { padding: 2rem; }
