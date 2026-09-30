@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motor Market Listings</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="variables-example.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">MOTOR<span>MARKET</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#listings">Listings</a></li>
+          <li><a href="#">Dealers</a></li>
+          <li><a href="#">Saved</a></li>
+        </ul>
+      </nav>
+      <button class="sell-button" type="button"><i class="fa-solid fa-plus" aria-hidden="true"></i> New listing</button>
+    </div>
+  </header>
+
+  <main class="container" id="listings">
+    <section class="section-heading">
+      <div>
+        <p class="eyebrow">Selected listings</p>
+        <h1>Cars for sale</h1>
+      </div>
+      <p class="result-count">10 listings</p>
+    </section>
+
+    <div class="card-list">
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-01.jpg" alt="Blue BMW 328">
+          <div class="promo-badges"><span class="promo promo--premium"><i class="fa-solid fa-crown"></i><span>Premium</span></span><span class="promo promo--vip"><i class="fa-solid fa-gem"></i><span>VIP</span></span></div>
+          <div class="status-tags"><span class="tag tag--new">New</span><span class="tag tag--order">To order</span></div>
+          <button class="favorite" type="button" aria-label="Add BMW 328 to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">21 800 ₼</p><h2>BMW 328</h2><p>2014, 2.0 L, 258 000 km</p><p class="meta">Ağsu, today 22:39</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-02.jpg" alt="White Kia Sorento">
+          <div class="promo-badges"><span class="promo promo--premium"><i class="fa-solid fa-crown"></i><span>Premium</span></span><span class="promo promo--vip"><i class="fa-solid fa-gem"></i><span>VIP</span></span></div>
+          <div class="status-tags"><span class="tag tag--dealer">In showroom</span><span class="tag tag--credit">Credit</span></div>
+          <button class="favorite" type="button" aria-label="Add Kia Sorento to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">38 900 ₼</p><h2>Kia Sorento</h2><p>2019, 2.2 L, 398 000 km</p><p class="meta">Bakı, today 22:38</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-03.jpg" alt="Black Land Rover Defender">
+          <div class="promo-badges"><span class="promo promo--vip"><i class="fa-solid fa-gem"></i><span>VIP</span></span></div>
+          <div class="status-tags"><span class="tag tag--dealer">In showroom</span><span class="tag tag--vin">VIN</span></div>
+          <button class="favorite" type="button" aria-label="Add Land Rover Defender to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">204 000 ₼</p><h2>Land Rover Defender</h2><p>2025, 3.0 L, 7 700 km</p><p class="meta">Bakı, today 22:37</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-04.jpg" alt="Black Volkswagen Touareg">
+          <div class="promo-badges"><span class="promo promo--premium"><i class="fa-solid fa-crown"></i><span>Premium</span></span></div>
+          <div class="status-tags"><span class="tag tag--dealer">In showroom</span><span class="tag tag--barter">Barter</span></div>
+          <button class="favorite" type="button" aria-label="Add Volkswagen Touareg to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">15 400 ₼</p><h2>Volkswagen Touareg</h2><p>2008, 3.6 L, 269 000 km</p><p class="meta">Sumqayıt, today 22:37</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-05.jpg" alt="Blue BMW 330">
+          <div class="status-tags"><span class="tag tag--barter">Barter</span></div>
+          <button class="favorite" type="button" aria-label="Add BMW 330 to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">28 500 ₼</p><h2>BMW 330</h2><p>2015, 2.0 L, 192 000 km</p><p class="meta">Bakı, today 22:38</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-06.jpg" alt="Black Porsche Cayenne GTS">
+          <div class="promo-badges"><span class="promo promo--premium"><i class="fa-solid fa-crown"></i><span>Premium</span></span></div>
+          <div class="status-tags"><span class="tag tag--credit">Credit</span></div>
+          <button class="favorite" type="button" aria-label="Add Porsche Cayenne to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">39 500 ₼</p><h2>Porsche Cayenne GTS</h2><p>2013, 4.8 L, 165 000 km</p><p class="meta">Bakı, today 22:36</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-07.jpg" alt="White Kia Sportage">
+          <div class="promo-badges"><span class="promo promo--vip"><i class="fa-solid fa-gem"></i><span>VIP</span></span></div>
+          <div class="status-tags"><span class="tag tag--barter">Barter</span><span class="tag tag--credit">Credit</span></div>
+          <button class="favorite" type="button" aria-label="Add Kia Sportage to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">20 800 ₼</p><h2>Kia Sportage</h2><p>2011, 2.0 L, 220 000 km</p><p class="meta">Bakı, today 22:36</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-08.jpg" alt="White Land Rover Range Rover">
+          <div class="promo-badges"><span class="promo promo--premium"><i class="fa-solid fa-crown"></i><span>Premium</span></span><span class="promo promo--vip"><i class="fa-solid fa-gem"></i><span>VIP</span></span></div>
+          <div class="status-tags"><span class="tag tag--dealer">In showroom</span><span class="tag tag--vin">VIN</span><span class="tag tag--credit">Credit</span></div>
+          <button class="favorite" type="button" aria-label="Add Range Rover to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">49 900 ₼</p><h2>Land Rover Range Rover</h2><p>2017, 3.0 L, 251 058 km</p><p class="meta">Bakı, today 22:35</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-09.jpg" alt="Red Nissan Juke">
+          <div class="status-tags"><span class="tag tag--dealer">In showroom</span><span class="tag tag--new">New</span></div>
+          <button class="favorite" type="button" aria-label="Add Nissan Juke to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">19 900 ₼</p><h2>Nissan Juke</h2><p>2016, 1.6 L, 87 000 km</p><p class="meta">Bakı, today 22:35</p></div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-card__image">
+          <img src="images/car-10.jpg" alt="Silver Tesla Cybertruck">
+          <div class="promo-badges"><span class="promo promo--premium"><i class="fa-solid fa-crown"></i><span>Premium</span></span></div>
+          <div class="status-tags"><span class="tag tag--order">To order</span><span class="tag tag--dealer">In showroom</span></div>
+          <button class="favorite" type="button" aria-label="Add Tesla Cybertruck to favourites"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="car-card__content"><p class="price">156 400 ₼</p><h2>Tesla Cybertruck</h2><p>2024, 123 kWh, 0 km</p><p class="meta">Bakı, today 22:34</p></div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>Responsive listings practice</p><p>INFT 2302 Web and Mobile I</p></div></footer>
+</body>
+</html>
